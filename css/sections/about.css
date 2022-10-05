@@ -1,0 +1,27 @@
+.about {
+    padding: 173px 0 87px;
+}
+
+.about > div {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.about img {
+    width: 500px;
+}
+
+.about h2 {
+    margin-bottom: 23px;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 40px;
+}
+
+.about p:last-child {
+    margin-bottom: 0;
+}

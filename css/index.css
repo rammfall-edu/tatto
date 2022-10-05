@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Roboto+Slab:wght@300;400;500;700&display=swap');
 @import "reset.css";
 @import "general.css";
-
+@import "sections/hero.css";
+@import "sections/about.css";
+@import "sections/benefits.css";
+@import "sections/services.css";

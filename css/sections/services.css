@@ -1,0 +1,66 @@
+.services {
+    padding-top: 93px;
+    padding-bottom: 223px;
+}
+
+.services h2 {
+    margin-bottom: 49px;
+}
+
+.services ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services li {
+    width: 270px;
+    min-height: 340px;
+    position: relative;
+    padding: 30px 45px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s;
+}
+
+.services img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.services h3 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: calc(33 / 25);
+}
+
+.services button {
+    width: 100%;
+    text-align: center;
+    background-color: #DA3414;
+    border-radius: 8px;
+    padding: 16px 20px;
+    font-size: 20px;
+    line-height: calc(26 / 20);
+    font-weight: 500;
+    text-transform: capitalize;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.services li:hover {
+    scale: 1.3;
+}
+
+.services li:hover button {
+    visibility: visible;
+    opacity: 1;
+}

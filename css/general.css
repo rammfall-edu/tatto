@@ -1,5 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background-color: #05090A;
+    color: white;
 }
 
 .container {
@@ -10,6 +16,38 @@ body {
 
 .container-lg {
     width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.outlined-title {
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: 1.5px;
+}
+
+.outlined-title::after {
+    content: '';
+    height: 1px;
+    background-color: #DA3414;
+    width: 171px;
+    display: block;
+    margin-top: 12px;
+}
+
+.title {
+    color: #DA3414;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center::after {
     margin-left: auto;
     margin-right: auto;
 }
