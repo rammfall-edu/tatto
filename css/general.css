@@ -6,6 +6,9 @@ body {
     font-family: 'Roboto Slab', serif;
     background-color: #05090A;
     color: white;
+    background-image: url("../img/icon.svg"), url("../img/head.svg");
+    background-repeat: no-repeat;
+    background-position: left top 82vh, right bottom 66vh;
 }
 
 .container {
