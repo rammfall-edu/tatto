@@ -1,0 +1,39 @@
+.instagram {
+    padding-bottom: 60px;
+    padding-top: 135px;
+}
+
+.instagram h2 {
+    margin-bottom: 33px;
+}
+
+.instagram p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.instagram ul {
+    display: grid;
+    gap: 30px;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.instagram img {
+    width: 100%;
+}
+
+.instagram button {
+    min-width: 230px;
+    text-align: center;
+    padding: 20px;
+    background-color: #DA3414;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}

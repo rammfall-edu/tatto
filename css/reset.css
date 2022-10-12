@@ -373,3 +373,7 @@ button {
     margin: 0;
     border: 0;
 }
+
+input {
+    border: none;
+}

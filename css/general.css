@@ -73,3 +73,8 @@ body {
     line-height: calc(20 / 26);
 }
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
