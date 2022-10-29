@@ -3,6 +3,13 @@
     padding-top: 135px;
 }
 
+@media screen and (max-width: 1320px) {
+    .instagram {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+}
+
 .instagram h2 {
     margin-bottom: 33px;
 }
@@ -15,11 +22,29 @@
     margin-bottom: 30px;
 }
 
+@media screen and (width <= 768px) {
+    .instagram p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .instagram br {
+        display: none;
+    }
+}
+
 .instagram ul {
     display: grid;
     gap: 30px;
     margin-bottom: 50px;
     grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 960px) {
+    .instagram ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .instagram img {
@@ -36,4 +61,11 @@
     font-size: 20px;
     line-height: 1.5;
     text-transform: uppercase;
+}
+
+@media screen and (width <= 768px) {
+    .instagram button {
+        padding: 14px 18px;
+        font-size: 16px;
+    }
 }

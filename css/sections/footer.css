@@ -2,3 +2,10 @@ footer {
     padding-top: 80px;
     padding-bottom: 72px;
 }
+
+@media screen and (max-width: 1320px) {
+    footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
